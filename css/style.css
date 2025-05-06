@@ -1,0 +1,28 @@
+@import url("/css/reset.css");
+
+article {
+    background-color: midnightblue;
+    color: white;
+    margin: 20px;
+}
+
+.profile-pic {
+    width: fit-content;
+    align-self: center;
+    margin: 20px;
+}
+
+.card-container {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-items: center;
+}
+
+.profile-details {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    margin: 20px;
+}
